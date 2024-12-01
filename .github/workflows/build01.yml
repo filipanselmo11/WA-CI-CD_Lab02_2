@@ -13,6 +13,6 @@ jobs:
       - name: Lint
         run: cd basic_lab02_02-master && npm run lint
       - name: Test code
-        run: cd basic_lab02_02-master npm run test
+        run: cd basic_lab02_02-master && npm run test
       - name: Deploy code
         run: echo "Deploying..."
